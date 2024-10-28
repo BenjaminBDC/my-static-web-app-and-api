@@ -4,8 +4,8 @@
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "AzureWebJobsStorage": ""
   },
-  "Host": {
-    "LocalHttpPort": 7071,
-    "CORS": "*"
+    "Host": {
+    "CORS": "http://localhost:3000"
+    }
   }
 }
